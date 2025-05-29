@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+
+<BorderPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="controllers.DashboardController">
+    <top>
+        <Label fx:id="welcomeLabel" text="Welcome to the Export Tracking Dashboard" style="-fx-font-size: 20px; -fx-padding: 10;" />
+    </top>
+    <center>
+        <Button text="Logout" onAction="#handleLogout" />
+    </center>
+</BorderPane>
